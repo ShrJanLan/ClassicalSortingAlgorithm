@@ -15,7 +15,6 @@ public class SelectionSort {
             for (int j=i+1;j<len;j++) {
                 if (arr[j] < arr[minIndex]) {//寻找最小的数
                     minIndex=j;//将最小数的索引保存
-                    break;
                 }
             }
             temp = arr[i];
